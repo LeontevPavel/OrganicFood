@@ -1,0 +1,135 @@
+/* ---- Fonts ---- */
+@font-face {
+    font-family: 'Rosario';
+    src: local("Rosario-Bold"), 
+        url('/fonts/Rosario/Rosario-Bold.woff2') format('woff2'),
+        url('/fonts/Rosario/Rosario-Bold.woff') format('woff'),
+        url('/fonts/Rosario/Rosario-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: local("DM Sans-bold"),
+        url('/fonts/DM_Sans/DMSans-Bold.woff2') format('woff2'),
+        url('/fonts/DM_Sans/DMSans-Bold.woff') format('woff'),
+        url('/fonts/DM_Sans/DMSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: local("DMSans-Medium"),
+        url('/fonts/DM_Sans/DMSans-Medium.woff2') format('woff2'),
+        url('/fonts/DM_Sans/DMSans-Medium.woff') format('woff'),
+        url('/fonts/DM_Sans/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: local("DMSans-Regular"),
+        url('/fonts/DM_Sans/DMSans-Regular.woff2') format('woff2'),
+        url('/fonts/DM_Sans/DMSans-Regular.woff') format('woff'),
+        url('/fonts/DM_Sans/DMSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ---- * ---- */
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18px;
+}
+
+/* ---- Wraper ---- */
+.wraper {
+    max-width: 1440px;
+    width: 100%;
+    padding: 50px 100px 0 100px;
+    border: 2px solid #ed6742;
+    margin: 0 auto;
+}
+/* ---- Link ---- */
+.link {
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+
+/* ---- Header ---- */
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 56px;
+    width: 100%;
+}
+
+.header__nav {
+    display: flex;
+    list-style: none;
+}
+
+.header__nav-item {
+    padding-right: 40px;
+}
+
+.header__nav-link {
+
+}
+
+.header__logo {
+    position: absolute;
+    margin: auto;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 292px;
+    /* border: 2px solid #09A66D; */
+}
+
+.header-menu__search-img {
+
+}
+
+.header-menu__basket-img {
+
+}
+
+.header-menu__register-button {
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #09A66D;
+    border: none;
+    border-radius: 8px;
+}   
+
+/* ---- About ---- */
+
+.about {
+    margin: 0 auto;
+}
+
